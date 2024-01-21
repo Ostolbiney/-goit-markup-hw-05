@@ -516,6 +516,7 @@ img {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-input {
@@ -622,6 +623,10 @@ img {
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
+}
+
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -736,6 +741,10 @@ img {
   border: none;
 }
 
+.modal-list {
+  position: relative;
+}
+
 .modal-button {
   display: block;
   min-width: 169px;
@@ -748,4 +757,13 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.user-name {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
