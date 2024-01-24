@@ -678,7 +678,7 @@ img {
 }
 .modal-input-wrap {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-text {
@@ -697,7 +697,9 @@ img {
 .modal-text:focus {
   border-color: #4d5ae5;
 }
-
+.modal-field {
+  margin-bottom: 24px;
+}
 .check-text {
   color: #8e8f99;
   font-size: 12px;
@@ -737,6 +739,7 @@ img {
 .check-input:checked + {
   background-color: #f4f4fd;
   border: none;
+  fill: #f4f4fd;
 }
 
 .modal-list {
