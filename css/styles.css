@@ -657,6 +657,10 @@ img {
   fill: #4d5ae5;
 }
 
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
 .madal-label-list {
   font-size: 12px;
   line-height: 1.17;
@@ -757,6 +761,10 @@ img {
 
 .check-input:checked + .modal-btn {
   border-color: #404bbf;
+  background-color: #404bbf;
+}
+
+.check-input:focus {
   background-color: #404bbf;
 }
 
