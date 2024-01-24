@@ -759,7 +759,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.check-input:checked + .modal-btn {
+.check-input:checked + .check-text span {
   border-color: #404bbf;
   background-color: #404bbf;
 }
@@ -768,7 +768,7 @@ img {
   background-color: #404bbf;
 }
 
-.check-input:checked + .check-text span {
+.check-input:checked + .check-text {
   background-color: #f4f4fd;
   border: none;
   fill: #f4f4fd;
