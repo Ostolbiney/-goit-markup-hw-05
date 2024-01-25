@@ -767,7 +767,7 @@ img {
   background-color: #404bbf;
 }
 
-.check-input:checked + .user-privacy span {
+.check-input:checked {
   background-color: #f4f4fd;
   border: none;
   fill: #f4f4fd;
