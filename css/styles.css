@@ -760,17 +760,12 @@ img {
 }
 
 .check-input:checked + .check-text span {
-  border-color: #404bbf;
   background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .check-input:focus {
   background-color: #404bbf;
-}
-
-.check-input:checked span {
-  background-color: #f4f4fd;
-  border: none;
-  fill: #f4f4fd;
 }
 
 .modal-list {
